@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Small Express.js application used to demonstrate a GitHub Actions CI/CD pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "express",
+    "github-actions",
+    "ci",
+    "cd",
+    "pipeline",
+    "docker"
+  ],
+  "author": "Nawaf Mohammed Musthafa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
